@@ -19,4 +19,4 @@ A short URL is permanently redirected by entering the path: "<hostname:port>/<fi
   
 No persistant storage is provided so the entered URLs are lost between runs.
 
-*Currently it is possible to add URLs without the "http://" address prefix (but then make sure the link isn't "https" prefixed). Other than that no validation of the links exist.
+*Currently it is possible to add URLs without the "http://" address prefix (if so, make sure the link isn't "https" prefixed). Other than that no validation of the links exist. A method/test is provided and extending is a recommendation if used in production.
