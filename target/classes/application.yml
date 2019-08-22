@@ -1,0 +1,6 @@
+server:
+  port: 8090
+
+props:
+    name: ShortURL
+    urlserver: http://localhost:8090

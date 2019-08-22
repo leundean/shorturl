@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b9ceee6-134a-48e1-b18f-7a05319ce365" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PkJMytwqRfiasUWAiMySZUX5E2" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="shorturl.config" />
+      <recent name="shorturl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.shorturl in shorturl">
+    <configuration name="EndpointsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shorturl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shorturl.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="shorturl.integration" />
+      <option name="MAIN_CLASS_NAME" value="shorturl.integration.EndpointsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndpointsTest.thatAValidURLIsStoredAndThenRetrieved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shorturl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shorturl.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="shorturl.integration" />
+      <option name="MAIN_CLASS_NAME" value="shorturl.integration.EndpointsTest" />
+      <option name="METHOD_NAME" value="thatAValidURLIsStoredAndThenRetrieved" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndpointsTest.thatAValidURLIsStoredByPutMethodAndUrlEncodedInUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shorturl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shorturl.integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="shorturl.integration" />
+      <option name="MAIN_CLASS_NAME" value="shorturl.integration.EndpointsTest" />
+      <option name="METHOD_NAME" value="thatAValidURLIsStoredByPutMethodAndUrlEncodedInUrl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlStoreServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shorturl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shorturl.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="shorturl.service" />
+      <option name="MAIN_CLASS_NAME" value="shorturl.service.UrlStoreServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="shorturl in shorturl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shorturl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shorturl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="shorturl" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shorturl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="shorturl.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.shorturl in shorturl" />
+        <item itemvalue="JUnit.UrlStoreServiceTest" />
+        <item itemvalue="JUnit.EndpointsTest" />
+        <item itemvalue="JUnit.EndpointsTest.thatAValidURLIsStoredAndThenRetrieved" />
+        <item itemvalue="JUnit.EndpointsTest.thatAValidURLIsStoredByPutMethodAndUrlEncodedInUrl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b9ceee6-134a-48e1-b18f-7a05319ce365" name="Default Changelist" comment="" />
+      <created>1566412116321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566412116321</updated>
+      <workItem from="1566412119872" duration="35380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

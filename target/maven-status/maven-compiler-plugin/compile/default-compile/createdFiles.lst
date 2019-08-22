@@ -1,0 +1,7 @@
+META-INF/spring-configuration-metadata.json
+shorturl/controller/ShortURLController.class
+shorturl/routerhandler/Routing.class
+shorturl/config/YAMLConfig.class
+shorturl/routerhandler/HandlingRedirect.class
+shorturl/Application.class
+shorturl/service/UrlStoreService.class

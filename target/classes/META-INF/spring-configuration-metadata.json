@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "props",
+      "type": "shorturl.config.YAMLConfig",
+      "sourceType": "shorturl.config.YAMLConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "props.name",
+      "type": "java.lang.String",
+      "sourceType": "shorturl.config.YAMLConfig"
+    },
+    {
+      "name": "props.urlserver",
+      "type": "java.lang.String",
+      "sourceType": "shorturl.config.YAMLConfig"
+    }
+  ],
+  "hints": []
+}
