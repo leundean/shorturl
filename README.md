@@ -15,7 +15,7 @@ It provides an endpoint "<hostname:port>/add" that returns a shortened URL as a 
 - Method: POST, Object/Body: an actual URL as the first element of a List/Array of strings
 - Method: PUT, "/add/{encodedURL}"  (an actual URL which is UTF-8 URLencoded)
 
-A short URL is permanently redirected by entering the path: "<hostname:port>/<shortURLstring>" (such as http://localhost:8080/klnaa)
+A short URL is permanently redirected by entering the path: "hostname:port/shortURL" (such as http://localhost:8080/klnaa)
   
 No persistant storage is provided so the entered URLs are lost between runs.
 
