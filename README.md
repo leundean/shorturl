@@ -5,6 +5,8 @@ ShortUrl is a SpringBoot/SpringWebFlux application that uses the Router/Handler 
 
 Build/test/install it with "mvn clean install" and run it as a SpringBoot jar: "java -jar target/shorturl-0.1.0.jar"
 
+Edit desired server port and short url hostname:port in provided appplication.yml
+
 It provides an endpoint <hostname:port>/add that returns a shortened URL as a five characters string value. The endpoints accepts:
 - Method: POST, Object/Body: an actual URL as the first element of a List/Array of strings
 - Method: PUT, /add/{encodedURL}  (an actual URL which is UTF-8 URLencoded)
