@@ -18,6 +18,8 @@ public class Routing {
     @Bean
     RouterFunction<ServerResponse> routerFunction(){
         return route(RequestPredicates.GET("/**")
+                .and(RequestPredicates.GET("/add/**").negate())
+                .and(RequestPredicates.POST("/add").negate())
                 .and(RequestPredicates.PUT("/add/**").negate()), handlingRedirect::redirect);
     }
 }

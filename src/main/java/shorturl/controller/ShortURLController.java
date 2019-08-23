@@ -20,7 +20,7 @@ public class ShortURLController {
     @Autowired
     UrlStoreService urlStoreService;
 
-    @RequestMapping(value = "/add/{url}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/add/{url}", method = {RequestMethod.GET, RequestMethod.PUT})
     @ResponseBody
     public Mono<Object> putValue(@PathVariable("url") String url) {
         log.info("/add/" + url);
