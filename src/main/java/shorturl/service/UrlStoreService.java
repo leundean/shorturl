@@ -74,7 +74,13 @@ public class UrlStoreService {
             char n = (char) (96 + (int) Math.ceil(Math.random()*26));
             shortUrlCode += "" + n;
         }
-        return shortUrlCode;
+        // After about 6 million entries the chance is above 50% the shortURL already exists
+        if (urlMap.containsKey(shortUrlCode)){
+            return shortify(url);
+        }
+        else {
+            return shortUrlCode;
+        }
     }
 
     public String getLongUrl(String shortUrlCode){
