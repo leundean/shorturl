@@ -27,10 +27,7 @@
       "kind": "Service",
       "apiVersion": "v1",
       "metadata": {
-        "name": "${NAME}",
-        "annotations": {
-          "description": "Exposes and load balances the application pods"
-        }
+        "name": "${NAME}"
       },
       "spec": {
         "ports": [
