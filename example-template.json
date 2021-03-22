@@ -30,7 +30,6 @@
         "name": "${NAME}",
         "annotations": {
           "description": "Exposes and load balances the application pods",
-          "service.alpha.openshift.io/dependencies": "[{\"name\": \"${NAME}\", \"kind\": \"Service\"}]"
         }
       },
       "spec": {
