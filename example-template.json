@@ -43,20 +43,6 @@
       }
     },
     {
-      "kind": "Route",
-      "apiVersion": "v1",
-      "metadata": {
-        "name": "${NAME}"
-      },
-      "spec": {
-        "host": "${APPLICATION_DOMAIN}",
-        "to": {
-          "kind": "Service",
-          "name": "${NAME}"
-        }
-      }
-    },
-    {
       "kind": "ImageStream",
       "apiVersion": "v1",
       "metadata": {
