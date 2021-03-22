@@ -129,7 +129,7 @@
             "imageChangeParams": {
               "automatic": true,
               "containerNames": [
-                "example-template-container"
+                "${NAME}"
               ],
               "from": {
                 "kind": "ImageStreamTag",
@@ -155,7 +155,7 @@
           "spec": {
             "containers": [
               {
-                "name": "example-template-container",
+                "name": "${NAME}",
                 "image": " ",
                 "ports": [
                   {
