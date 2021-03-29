@@ -1,3 +1,4 @@
+# Not in use
 FROM openjdk:12-jdk-alpine
 WORKDIR /root
 COPY target/shorturl-0.1.0.jar /root

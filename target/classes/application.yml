@@ -4,3 +4,9 @@ server:
 props:
     name: ShortURL
     urlserver: http://localhost:8090
+
+    # Here parameters for how the URL is generated can be added
+    # - Number of digits/characters
+    # - Type of digits/characters
+
+    # Here criteria for how the validation (e.g inclusion of https) can be added
