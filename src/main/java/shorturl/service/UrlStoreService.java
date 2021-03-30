@@ -83,6 +83,30 @@ public class UrlStoreService {
         }
     }
 
+    private static int linearValue = 0;
+    public String shortifyLinear(String url){
+        String shortUrlCode = "";
+        String stringValue = "";
+        for (int i=0; i < 5; i++) {
+            stringValue = Integer.toString(linearValue);
+            if (stringValue.length() < i + 1) {
+                stringValue = "0" + stringValue;
+            }
+        }
+        for (int i=0; i < 5; i++) {
+            char n = (char) (96 + Integer.getInteger(stringValue.substring(i, i+i)));
+            shortUrlCode += "" + n;
+        }
+        linearValue++;
+        // If the shortURL already exists
+        if (urlMap.containsKey(shortUrlCode)){
+            return shortifyLinear(url);
+        }
+        else {
+            return shortUrlCode;
+        }
+    }
+
     public String getLongUrl(String shortUrlCode){
         return urlMap.get(shortUrlCode);
     }

@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b9ceee6-134a-48e1-b18f-7a05319ce365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shorturl/config/EnvExtracted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shorturl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/shorturl.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shorturl/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shorturl/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shorturl/config/YAMLConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shorturl/config/YAMLConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shorturl/controller/ShortURLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shorturl/controller/ShortURLController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shorturl/routerhandler/HandlingRedirect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shorturl/routerhandler/HandlingRedirect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shorturl/routerhandler/Routing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shorturl/routerhandler/Routing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shorturl/service/UrlEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shorturl/service/UrlStoreService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shorturl/service/UrlStoreService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shorturl-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/shorturl-0.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/shorturl-0.1.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/shorturl-0.1.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-shorturl.integration.EndpointsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-shorturl.integration.EndpointsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-shorturl.service.UrlStoreServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-shorturl.service.UrlStoreServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/shorturl.integration.EndpointsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/shorturl.integration.EndpointsTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/shorturl.service.UrlStoreServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/shorturl.service.UrlStoreServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shorturl/integration/EndpointsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shorturl/integration/EndpointsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/shorturl/service/UrlStoreServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/shorturl/service/UrlStoreServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
