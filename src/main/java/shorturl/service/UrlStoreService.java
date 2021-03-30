@@ -27,7 +27,7 @@ public class UrlStoreService {
             log.info("valid url");
             // If Url is not stored, return shortUrl
             if (!urlMap.containsValue(validUrl)){
-                String shortUrl = shortify(validUrl);
+                String shortUrl = shortifyLinear(validUrl);
                 urlMap.put(shortUrl, validUrl);
                 log.info("added: " + shortUrl + " --> " + validUrl);
                 return Mono.just(yamlConfig.getUrlserver() + "/" + shortUrl);
