@@ -1,5 +1,5 @@
 # Not in use
-FROM openjdk:12-jdk-alpine
+FROM openjdk:latest
 WORKDIR /root
 COPY target/shorturl-0.1.0.jar /root
 EXPOSE 8090/tcp
